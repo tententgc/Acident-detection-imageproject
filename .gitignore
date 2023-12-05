@@ -1,5 +1,7 @@
 # Ignore Accident Detection directory
-Accident Detection.V1i.yolov8/
+Accident Detection.v1i.yolov8/test
+Accident Detection.v1i.yolov8/train
+Accident Detection.v1i.yolov8/valid
 
 # Ignore virtual environment directory
 venv/
