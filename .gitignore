@@ -26,3 +26,9 @@ __pycache__/
 # Exclude directories that contain results or output files
 outputs/
 results/
+
+
+venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.dylib
+
+
+Accident Detection.v1i.yolov8
