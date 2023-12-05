@@ -1,34 +1,5 @@
-# Exclude model weights and checkpoints
-*.weights
-*.ckpt
+# Ignore Accident Detection directory
+Accident Detection.V1i.yolov8/
 
-# Exclude dataset files (adjust the extension based on your dataset)
-*.jpg
-*.png
-*.jpeg
-*.json
-*.xml
-
-# Exclude configuration files (if any)
-config.json
-
-# Exclude log files
-*.log
-
-# Exclude temporary files
-*.tmp
-*.temp
-
-# Exclude Python bytecode
-__pycache__/
-*.py[cod]
-
-# Exclude directories that contain results or output files
-outputs/
-results/
-
-
-venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.dylib
-
-
-Accident Detection.v1i.yolov8
+# Ignore virtual environment directory
+venv/
