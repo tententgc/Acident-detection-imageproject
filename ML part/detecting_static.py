@@ -9,7 +9,7 @@ image_path = "./inputs/images/image1.jpg"
 video_path = "./inputs/videos/video1.mp4"
 
 # Detection
-results = model.predict(source=video_path, project=save_path, save=True, show=True)
+results = model.predict(source=video_path, project=save_path, save=True, show=True,conf=0.7)
 
 # Filter results based on a confidence threshold
 threshold = 0.7
