@@ -8,15 +8,22 @@ Accidents on the road can have serious consequences, and quick response times ar
 - Clone this repository: `git clone https://github.com/tententgc/Acident-detection-imageproject.git`
 - `cd` into the directory: `cd Acident-detection-imageproject`, then proceed to Step 2
 
-### Step 2: Detection
+### Step 2: Trainning model
+- Using Dataset from Roboflow [Accident Dataset](https://universe.roboflow.com/yolovideos/accident-detection-bcc2v/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
+- Training model with keras Model
+- Training model with YOLO v8 
+- Training Model with DinoDETR 
 
-#### Step 2.1: Static Image/Video Detection
+
+### Step 3: Detection
+
+#### Step 3.1: Static Image/Video Detection
 
 - To perform static image/video detection, use the file named `detecting_static.py` available in `ML Part` folder
 - Run the script: `python detecting_static.py`
 - The script will load the model, perform object detection on the specified image (sample input images available in `inputs` folder), and save the results in the `results` directory.
 
-#### Step 2.2: Videostream Detection
+#### Step 3.2: Videostream Detection
 
 - To perform videostream detection, use the file named `detecting_videostream.py` available in `ML Part` folder
 - Run the script: `python detecting_videostream.py`
